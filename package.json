@@ -19,6 +19,7 @@
   "type": "module",
   "scripts": {
     "check": "biome check",
+    "clean": "git clean -Xdf",
     "fmt": "biome format --write"
   },
   "devDependencies": {
