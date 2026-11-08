@@ -7,12 +7,15 @@
   "js/ts.tsdk.path": "node_modules/typescript/lib",
   "js/ts.tsdk.promptToUseWorkspaceVersion": true,
   "search.exclude": {
-    "pnpm-lock.yaml": true
+    "pnpm-lock.yaml": true,
+    "skills-lock.json": true
   },
   "files.readonlyInclude": {
-    "pnpm-lock.yaml": true
+    "pnpm-lock.yaml": true,
+    "skills-lock.json": true
   },
   "files.watcherExclude": {
-    "pnpm-lock.yaml": true
+    "pnpm-lock.yaml": true,
+    "skills-lock.json": true
   }
 }
