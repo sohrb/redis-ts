@@ -17,11 +17,18 @@
     "email": "sohrab.chegini@gmail.com"
   },
   "type": "module",
+  "imports": {
+    "#/*.ts": {
+      "types": "./src/*.ts",
+      "development": "./src/*.ts",
+      "default": "./dist/*.js"
+    }
+  },
   "scripts": {
     "build": "tsc -b tsconfig.app.json",
     "check": "biome check --error-on-warnings",
     "clean": "git clean -Xdf",
-    "dev": "node --watch src/main.ts",
+    "dev": "node --conditions=development --watch src/main.ts",
     "fmt": "biome format --write",
     "start": "node --enable-source-maps dist/main.js",
     "test": "vitest",
