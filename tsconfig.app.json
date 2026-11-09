@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.base.json",
+  "include": ["src"],
+  "compilerOptions": {
+    "rootDir": "src",
+    "declarationDir": ".cache/types",
+    "outDir": "dist",
+    "removeComments": true,
+    "sourceMap": true,
+    "tsBuildInfoFile": ".cache/app.tsbuildinfo"
+  }
+}

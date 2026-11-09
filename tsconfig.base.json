@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "exactOptionalPropertyTypes": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noUncheckedIndexedAccess": true,
+    "module": "nodenext",
+    "rewriteRelativeImportExtensions": true,
+    "types": ["node", "@total-typescript/ts-reset"],
+    "erasableSyntaxOnly": true,
+    "verbatimModuleSyntax": true,
+    "lib": ["esnext"],
+    "composite": true,
+    "skipLibCheck": true
+  }
+}
