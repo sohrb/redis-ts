@@ -5,7 +5,9 @@
       "**",
       "!.agents",
       "!.claude/*",
+      "!.codex/*",
       ".claude/settings.json",
+      ".codex/hooks.json",
       "!pnpm-lock.yaml",
       "!skills-lock.json"
     ]
